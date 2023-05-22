@@ -39,14 +39,15 @@ Route::group(['middleware' => 'auth'], function () {
     Route::impersonate();
 });
 
+Route::get('/', 'DashboardController@index')->name('dashboard');
+
 Route::group(['middleware' => ['auth', 'verified']], function () {
 
     /**
      * Dashboard
      */
 
-    Route::get('/', 'DashboardController@index')->name('dashboard');
-
+    
     /**
      * User Profile
      */

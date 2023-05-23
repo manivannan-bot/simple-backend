@@ -1,172 +1,9 @@
-<?php ?>
 
 <!DOCTYPE html>
 <html lang="en-US">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-      <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-      <title>LIFE Trust-India</title>
-      <link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
-	  <link rel="stylesheet" id="elementor-frontend-css" href="{{ url('website/asset/style/popup.css')}}" media="all">
-	  <link rel="stylesheet" id="elementor-frontend-css" href="{{ url('website/asset/style/frontend-lite.min.css')}}" media="all">
-	  <link rel="stylesheet" id="elementor-frontend-css" href="{{ url('website/asset/style/partner.css')}}" media="all">
-	  <link rel="stylesheet" id="elementor-frontend-css" href="{{ url('website/asset/style/slick.css')}}" media="all">
-	  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="{{ url('website/asset/fonts/font-awesome-4.7.0/css/font-awesome.min.css')}}">
-      <link rel='stylesheet' id='give-styles-css' href="{{ url('website/asset/wp-content/plugins/give/assets/dist/css/give.css')}}" media='all' />
-      <link rel='stylesheet' id='elementor-frontend-css' href="{{ url('website/asset/wp-content/plugins/elementor/assets/css/frontend-lite.min.css')}}" media='all' />
-      <link rel='stylesheet' id='elementor-post-5122-css' href="{{ url('website/asset/wp-content/uploads/elementor/css/post-5122.css')}}" media='all' />
-      <link rel='stylesheet' id='elementor-post-11814-css' href="{{ url('website/asset/wp-content/uploads/elementor/css/post-11814.css')}}" media='all' />
-      <link rel='stylesheet' id='elementor-post-11577-css' href="{{ url('website/asset/wp-content/uploads/elementor/css/post-11577.css')}}" media='all' />
-      <link rel='stylesheet' id='ubermenu-css' href="{{ url('website/asset/wp-content/plugins/ubermenu/pro/assets/css/ubermenu.min.css')}}" media='all' />
-      <link rel='stylesheet' id='bearsthemes-swiper-css' href="{{ url('website/asset/wp-content/plugins/bearsthemes-addons/assets/css/swiper.min.css')}}" media='all' />
-      <link rel='stylesheet' id='tooltipster-css' href="{{ url('website/asset/wp-content/plugins/bearsthemes-addons/assets/css/tooltipster.css')}}" media='all' />
-      <link rel='stylesheet' id='magnific-popup-css' href="{{ url('website/asset/wp-content/plugins/bearsthemes-addons/assets/css/magnific-popup.css')}}" media='all' />
-      <link rel='stylesheet' id='bearsthemes-addons-elements-css' href="{{ url('website/asset/wp-content/plugins/bearsthemes-addons/assets/css/elements.css')}}" media='all' />
-      <link rel='stylesheet' id='bearsthemes-addons-woocommerce-css' href="{{ url('website/asset/wp-content/plugins/bearsthemes-addons/assets/css/woocommerce.css')}}" media='all' />
-      <link rel='stylesheet' id='bearsthemes-addons-give-css' href="{{ url('website/asset/wp-content/plugins/bearsthemes-addons/assets/css/give.css')}}" media='all' />
-      <link rel='stylesheet' id='bearsthemes-addons-events-css' href="{{ url('website/asset/wp-content/plugins/bearsthemes-addons/assets/css/events.css')}}" media='all' />
-      <link rel='stylesheet' id='bearsthemes-addons-sermone-css' href="{{ url('website/asset/wp-content/plugins/bearsthemes-addons/assets/css/sermone.css')}}" media='all' />
-      <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPT+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.2.1' media='all' />
-      <script src="{{ url('website/asset/wp-includes/js/jquery/jquery.min.js')}}" id='jquery-core-js'></script>
-      <meta name="generator" content="Give v2.27.0" />
-      <meta name="tec-api-version" content="v1">
-      <link rel="icon" href="{{ url('website/asset/favico/221X192.svg')}}" sizes="32x32" />
-      <link rel="icon" href="{{ url('website/asset/favico/221X192.svg')}}" sizes="192x192" />
-      <link rel="apple-touch-icon" href="{{ url('website/asset/favico/221X192.svg')}}" />
-      <!-- <link rel="stylesheet" href="{{url('website/asset/css/custom/bloackqoutes.css')}}"> -->
-      <meta name="msapplication-TileImage" content="{{ url('website/asset/favico/221X192.svg')}}" />
-   </head>
+@include('website.layout.header')
    <body class="page-template page-template-elementor_header_footer page page-id-5122 wp-custom-logo wp-embed-responsive theme-alone woocommerce-no-js tribe-no-js singular has-mini-items shop-bages elementor-default elementor-template-full-width elementor-kit-9 elementor-page elementor-page-5122">
-      <header data-elementor-type="header" data-elementor-id="11814" class="elementor elementor-11814 elementor-location-header">
-         <div class="elementor-section-wrap">
-            <section class="elementor-section elementor-top-section elementor-element elementor-element-0b2ef2c elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="0b2ef2c" data-element_type="section">
-               <div class="elementor-container elementor-column-gap-default">
-                  <div class="elementor-row">
-                     <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f2ef7e3" data-id="f2ef7e3" data-element_type="column">
-                        <div class="elementor-column-wrap elementor-element-populated">
-                           <div class="elementor-widget-wrap">
-                              <section class="elementor-section elementor-inner-section elementor-element elementor-element-644f313 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="644f313" data-element_type="section">
-                                 <div class="elementor-container elementor-column-gap-default">
-                                    <div class="elementor-row">
-                                       <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-448681a" data-id="448681a" data-element_type="column">
-                                          <div class="elementor-column-wrap elementor-element-populated">
-                                             <div class="elementor-widget-wrap">
-                                                <div class="elementor-element elementor-element-105b226 elementor-widget elementor-widget-spacer" data-id="105b226" data-element_type="widget" data-widget_type="spacer.default">
-                                                   <div class="elementor-widget-container">
-                                                      <style>/*! elementor - v3.12.2 - 23-04-2023 */
-                                                         .elementor-column .elementor-spacer-inner{height:var(--spacer-size)}.e-con{--container-widget-width:100%}.e-con-inner>.elementor-widget-spacer,.e-con>.elementor-widget-spacer{width:var(--container-widget-width,var(--spacer-size));--align-self:var(--container-widget-align-self,initial);--flex-shrink:0}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container,.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer,.e-con>.elementor-widget-spacer>.elementor-widget-container,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer{height:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner{height:var(--container-widget-height,var(--spacer-size))}
-                                                      </style>
-                                                      <div class="elementor-spacer">
-                                                         <div class="elementor-spacer-inner"></div>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </section>
-                              <section class="elementor-section elementor-inner-section elementor-element elementor-element-c28be36 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c28be36" data-element_type="section" data-settings="{&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
-                                 <div class="elementor-container elementor-column-gap-default">
-                                    <div class="elementor-row">
-                                       <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-0b7c49b" data-id="0b7c49b" data-element_type="column">
-                                          <div class="elementor-column-wrap elementor-element-populated">
-                                             <div class="elementor-widget-wrap">
-                                                <div class="elementor-element elementor-element-6f9d40f elementor-widget elementor-widget-image" data-id="6f9d40f" data-element_type="widget" data-widget_type="image.default">
-                                                   <div class="elementor-widget-container">
-                                                      <style>/*! elementor - v3.12.2 - 23-04-2023 */
-                                                         .elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}
-                                                      </style>
-                                                      <div class="elementor-image">
-                                                         <a href="#">
-                                                         <img style="width: 25%; padding-bottom: 5%; padding-top: 5%; " width="201" height="60" src="{{url('website/asset/logo/icon.svg')}}" class="attachment-full size-full wp-image-11815" alt="" loading="lazy" />								</a>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
-                                       <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9cf71aa" data-id="9cf71aa" data-element_type="column">
-                                          <div class="elementor-column-wrap elementor-element-populated">
-                                             <div class="elementor-widget-wrap">
-                                                <div class="elementor-element elementor-element-4498a24 elementor-widget elementor-widget-be-uber-menu" data-id="4498a24" data-element_type="widget" data-widget_type="be-uber-menu.default">
-                                                   <div class="elementor-widget-container">
-                                                      <div class="site-menu-wrap-bears">
-                                                         <!-- UberMenu [Configuration:main] [Theme Loc:] [Integration:api] -->
-                                                         <button class="ubermenu-responsive-toggle ubermenu-responsive-toggle-main ubermenu-skin-minimal ubermenu-loc- ubermenu-responsive-toggle-content-align-left ubermenu-responsive-toggle-align-full" tabindex="0" data-ubermenu-target="ubermenu-main-290"><i class="fas fa-bars" ></i>Menu</button>
-                                                         <nav id="ubermenu-main-290" class="ubermenu ubermenu-nojs ubermenu-main ubermenu-menu-290 ubermenu-responsive ubermenu-responsive-991 ubermenu-mobile-modal ubermenu-responsive-collapse ubermenu-horizontal ubermenu-transition-shift ubermenu-trigger-hover_intent ubermenu-skin-minimal  ubermenu-bar-align-right ubermenu-items-align-auto ubermenu-items-vstretch ubermenu-disable-submenu-scroll ubermenu-sub-indicators ubermenu-retractors-responsive ubermenu-submenu-indicator-closes">
-                                                            <div class="ubermenu-mobile-header"><img width="191" height="87" src="https://alonethemes.com/wp-content/uploads/2021/06/pmr-logo.png" ></div>
-                                                            <ul id="ubermenu-nav-main-290" class="ubermenu-nav" data-title="Mega menu">
-                                                               <li id="menu-item-11212" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-current-menu-ancestor ubermenu-item-has-children ubermenu-item-11212 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega" >
-                                                                  <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="#" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Home</span></a>
-                                                               </li>
-															   <li class="ubermenu-item ubermenu-item-level-0  ubermenu-has-submenu-drop">
-																<a class="ubermenu-target" href="" tabindex="0">
-																   <span >Activities</span>
-																</a>
-																<ul class="ubermenu-submenu ubermenu-submenu-type-flyout ubermenu-submenu-drop">
-																   <li class="ubermenu-item"><a class="ubermenu-target" href=""><span >Capacity building</span></a></li>
-																   <li class="ubermenu-item"><a class="ubermenu-target" href=""><span >Research and Development</span></a></li>
-																   <li class="ubermenu-item"><a class="ubermenu-target" href=""><span >Education</span></a></li>
-																   <li class="ubermenu-item"><a class="ubermenu-target" href=""><span >Networking</span></a></li>
-																   <li class="ubermenu-item"><a class="ubermenu-target" href=""><span >Public health and rural development </span></a></li>
-																</ul>
-															 </li>
-															 <li class="ubermenu-item ubermenu-item-level-0  ubermenu-has-submenu-drop">
-																<a class="ubermenu-target" href="" tabindex="0">
-																   <span >Gallery</span>
-																</a>
-															 </li>
-															 <li class="ubermenu-item ubermenu-item-level-0  ubermenu-has-submenu-drop">
-																<a class="ubermenu-target" href="" tabindex="0">
-																   <span >Reports and Publications</span>
-																   </a>
-																<ul class="ubermenu-submenu ubermenu-submenu-type-flyout ubermenu-submenu-drop" >
-																   <li class="ubermenu-item"><a class="ubermenu-target" href=""><span >Annual report</span></a></li>
-																   <li class="ubermenu-item"><a class="ubermenu-target" href=""><span >Publications</span></a></li>
-																   <li class="ubermenu-item"><a class="ubermenu-target" href=""><span >Education materials</span></a></li>
-																</ul>
-															 </li>
-															 <li class="ubermenu-item ubermenu-item-level-0  ubermenu-has-submenu-drop">
-																<a class="ubermenu-target" href="" tabindex="0">
-																   <span >Get involved</span>
-																   </a>
-																<ul class="ubermenu-submenu ubermenu-submenu-type-flyout ubermenu-submenu-drop" >
-																   <li class="ubermenu-item   "><a class="ubermenu-target" href=""><span >Become a Volunteer</span></a></li>
-																   <li class="ubermenu-item   "><a class="ubermenu-target" href=""><span >Careers and Internships</span></a></li>
-																   <li class="ubermenu-item   "><a class="ubermenu-target" href=""><span >Partnerships</span></a></li>
-																</ul>
-															 </li>
-															 <li class="mobi-none-mega ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-11284 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega">
-																<a class="ubermenu-target" href="#" tabindex="0"><span >Contact Us</span></a>
-															 </li>
-                                                            </ul>
-                                                            <div class="ubermenu-mobile-footer"><button class="ubermenu-mobile-close-button"><i class="fas fa-times"></i> Close</button></div>
-                                                         </nav>
-                                                         <!-- End UberMenu -->
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </section>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
-         </div>
-      </header>
+    
       <div data-elementor-type="wp-page" data-elementor-id="5122" class="elementor elementor-5122">
          <div class="elementor-inner">
             <div class="elementor-section-wrap">
@@ -507,7 +344,7 @@
 				   </div>
 				</div> 
 			 </section>
-			
+<!-- Reports&Publication -->
 			 <section class="elementor-section elementor-top-section elementor-element elementor-element-402ea38 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="402ea38" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 				<div class="elementor-container elementor-column-gap-extended">
 				   <div class="elementor-row">
@@ -585,6 +422,8 @@
 				   </div>
 				</div>
 			 </section>
+ <!-- OUR PARTNER -->
+
 			 <section class="elementor-section elementor-top-section elementor-element elementor-element-b72dbd5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b72dbd5" data-element_type="section">
 				<div class="elementor-container elementor-column-gap-extended">
 				   <div class="elementor-row">
@@ -600,33 +439,34 @@
 					  <div class="slide"><img src="{{ url('website/asset/logo/partners/ZSL.jpg')}}"></div>				   
 				   </section>
 				</div>
-			 </div>
-		  </div>   
-		  <script>
-			$(document).ready(function(){
-			   $('.customer-logos').slick({
-				  slidesToShow: 6,
-				  slidesToScroll: 1,
-				  autoplay: true,
-				  autoplaySpeed: 1500,
-				  arrows: false,
-				  dots: false,
-				  pauseOnHover: false,
-				  responsive: [{
-						breakpoint: 768,
-						settings: {
-						   slidesToShow: 4
-						}
-				  }, {
-						breakpoint: 520,
-						settings: {
-						   slidesToShow: 3
-						}
-				  }]
-			   });
-			});         
-		 </script>
+					</div>
+				</div>   
+				<script>
+					$(document).ready(function(){
+					$('.customer-logos').slick({
+						slidesToShow: 6,
+						slidesToScroll: 1,
+						autoplay: true,
+						autoplaySpeed: 1500,
+						arrows: false,
+						dots: false,
+						pauseOnHover: false,
+						responsive: [{
+								breakpoint: 768,
+								settings: {
+								slidesToShow: 4
+								}
+						}, {
+								breakpoint: 520,
+								settings: {
+								slidesToShow: 3
+								}
+						}]
+					});
+					});         
+				</script>
 		  </section>
+<!-- Events -->
 		  <section class="elementor-section elementor-top-section elementor-element elementor-element-b72dbd5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b72dbd5" data-element_type="section">
 			<div class="elementor-container elementor-column-gap-extended">
 			   <div class="elementor-row">
@@ -775,113 +615,11 @@
 			   </div>
 			</div>
 		 </section>
-	</div>
+	 </div>
          </div>
       </div>
-      <footer data-elementor-type="footer" data-elementor-id="11577" class="elementor elementor-11577 elementor-location-footer">
-		<div class="elementor-section-wrap">
-		   <section class="elementor-section elementor-top-section elementor-element elementor-element-7f43560 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7f43560" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-			  <div class="elementor-container elementor-column-gap-extended">
-				 <div class="elementor-row">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8bf1294" data-id="8bf1294" data-element_type="column">
-					   <div class="elementor-column-wrap elementor-element-populated">
-						  <div class="elementor-widget-wrap">
-							 <div class="elementor-element elementor-element-bf37bfb elementor-widget elementor-widget-image" data-id="bf37bfb" data-element_type="widget" data-widget_type="image.default">
-								<div class="elementor-widget-container">
-								   <div class="elementor-image">
-									  <img width="201" height="60" src="{{url('website/asset/logo/icon.svg')}}" class="attachment-full size-full wp-image-11579" alt="" loading="lazy">														
-								   </div>
-								</div>
-							 </div>
-							 <div class="elementor-element elementor-element-5399e7e elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="5399e7e" data-element_type="widget" data-widget_type="icon-list.default">
-								<div class="elementor-widget-container">
-								   <link rel="stylesheet" href="">
-								   <ul class="elementor-icon-list-items">
-									  <li class="elementor-icon-list-item">
-										 <span class="elementor-icon-list-text">Call Us: <a href="tel:42348952">+91 99657 90195 </a></span>
-									  </li>
-									  <li class="elementor-icon-list-item">
-										 <span class="elementor-icon-list-text">2/211 Kumutham Nagar Vilankurichi Road Coimbatore - 641035 TN, India</span>
-									  </li>
-								   </ul>
-								</div>
-							 </div>
-							 <div class="elementor-element elementor-element-ecce79b elementor-shape-square elementor-grid-mobile-0 elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="ecce79b" data-element_type="widget" data-widget_type="social-icons.default">
-								<div class="elementor-widget-container">
-								   <style>
-									  .elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container{line-height:1;font-size:0}.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid{display:inline-grid}.elementor-widget-social-icons .elementor-grid{grid-column-gap:var(--grid-column-gap,5px);grid-row-gap:var(--grid-row-gap,5px);grid-template-columns:var(--grid-template-columns);justify-content:var(--justify-content,center);justify-items:var(--justify-content,center)}.elementor-icon.elementor-social-icon{font-size:var(--icon-size,25px);line-height:var(--icon-size,25px);width:calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)));height:calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)))}.elementor-social-icon{--e-social-icon-icon-color:#fff;display:inline-flex;background-color:#69727d;align-items:center;justify-content:center;text-align:center;cursor:pointer}.elementor-social-icon i{color:var(--e-social-icon-icon-color)}.elementor-social-icon svg{fill:var(--e-social-icon-icon-color)}.elementor-social-icon:last-child{margin:0}.elementor-social-icon:hover{opacity:.9;color:#fff}.elementor-social-icon-android{background-color:#a4c639}.elementor-social-icon-apple{background-color:#999}.elementor-social-icon-behance{background-color:#1769ff}.elementor-social-icon-bitbucket{background-color:#205081}.elementor-social-icon-codepen{background-color:#000}.elementor-social-icon-delicious{background-color:#39f}.elementor-social-icon-deviantart{background-color:#05cc47}.elementor-social-icon-digg{background-color:#005be2}.elementor-social-icon-dribbble{background-color:#ea4c89}.elementor-social-icon-elementor{background-color:#d30c5c}.elementor-social-icon-envelope{background-color:#ea4335}.elementor-social-icon-facebook,.elementor-social-icon-facebook-f{background-color:#3b5998}.elementor-social-icon-flickr{background-color:#0063dc}.elementor-social-icon-foursquare{background-color:#2d5be3}.elementor-social-icon-free-code-camp,.elementor-social-icon-freecodecamp{background-color:#006400}.elementor-social-icon-github{background-color:#333}.elementor-social-icon-gitlab{background-color:#e24329}.elementor-social-icon-globe{background-color:#69727d}.elementor-social-icon-google-plus,.elementor-social-icon-google-plus-g{background-color:#dd4b39}.elementor-social-icon-houzz{background-color:#7ac142}.elementor-social-icon-instagram{background-color:#262626}.elementor-social-icon-jsfiddle{background-color:#487aa2}.elementor-social-icon-link{background-color:#818a91}.elementor-social-icon-linkedin,.elementor-social-icon-linkedin-in{background-color:#0077b5}.elementor-social-icon-medium{background-color:#00ab6b}.elementor-social-icon-meetup{background-color:#ec1c40}.elementor-social-icon-mixcloud{background-color:#273a4b}.elementor-social-icon-odnoklassniki{background-color:#f4731c}.elementor-social-icon-pinterest{background-color:#bd081c}.elementor-social-icon-product-hunt{background-color:#da552f}.elementor-social-icon-reddit{background-color:#ff4500}.elementor-social-icon-rss{background-color:#f26522}.elementor-social-icon-shopping-cart{background-color:#4caf50}.elementor-social-icon-skype{background-color:#00aff0}.elementor-social-icon-slideshare{background-color:#0077b5}.elementor-social-icon-snapchat{background-color:#fffc00}.elementor-social-icon-soundcloud{background-color:#f80}.elementor-social-icon-spotify{background-color:#2ebd59}.elementor-social-icon-stack-overflow{background-color:#fe7a15}.elementor-social-icon-steam{background-color:#00adee}.elementor-social-icon-stumbleupon{background-color:#eb4924}.elementor-social-icon-telegram{background-color:#2ca5e0}.elementor-social-icon-thumb-tack{background-color:#1aa1d8}.elementor-social-icon-tripadvisor{background-color:#589442}.elementor-social-icon-tumblr{background-color:#35465c}.elementor-social-icon-twitch{background-color:#6441a5}.elementor-social-icon-twitter{background-color:#1da1f2}.elementor-social-icon-viber{background-color:#665cac}.elementor-social-icon-vimeo{background-color:#1ab7ea}.elementor-social-icon-vk{background-color:#45668e}.elementor-social-icon-weibo{background-color:#dd2430}.elementor-social-icon-weixin{background-color:#31a918}.elementor-social-icon-whatsapp{background-color:#25d366}.elementor-social-icon-wordpress{background-color:#21759b}.elementor-social-icon-xing{background-color:#026466}.elementor-social-icon-yelp{background-color:#af0606}.elementor-social-icon-youtube{background-color:#cd201f}.elementor-social-icon-500px{background-color:#0099e5}.elementor-shape-rounded .elementor-icon.elementor-social-icon{border-radius:10%}.elementor-shape-circle .elementor-icon.elementor-social-icon{border-radius:50%}
-								   </style>
-								   <div class="elementor-social-icons-wrapper elementor-grid">
-									  <span class="elementor-grid-item">
-									  <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f " target="_blank">
-									  <span class="elementor-screen-only">Facebook-f</span>
-									  <i class="fa fa-facebook" aria-hidden="true"></i>					</a>
-									  </span>
-									  <span class="elementor-grid-item">
-									  <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-536e1c6" target="_blank">
-									  <span class="elementor-screen-only">Twitter</span>
-									  <i class="fa fa-twitter" aria-hidden="true"></i>					</a>
-									  </span>
-									  <span class="elementor-grid-item">
-									  <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-fcdcc7c" target="_blank">
-									  <span class="elementor-screen-only">Youtube</span>
-									  <i class="fa fa-youtube" aria-hidden="true"></i>					</a>
-									  </span>
-									  <span class="elementor-grid-item">
-									  <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-3920b65" target="_blank">
-									  <span class="elementor-screen-only">Instagram</span>
-									  <i class="fa fa-instagram" aria-hidden="true"></i>				</a>
-									  </span>
-									  <span class="elementor-grid-item">
-									  <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-a3c9036" target="_blank">
-									  <span class="elementor-screen-only">Linkedin-in</span>
-									  <i class="fa fa-linkedin" aria-hidden="true"></i>				</a>
-									  </span>
-								   </div>
-								</div>
-							 </div>
-							 <div class="elementor-element elementor-element-e9eee11 elementor-widget elementor-widget-heading" data-id="e9eee11" data-element_type="widget" data-widget_type="heading.default">
-								<div class="elementor-widget-container">
-								   <div class="elementor-heading-title elementor-size-default">© All right reserved <span class="copyright-year">2023</span> <br> <a href="">Living In Fine Environment Trust - India (LIFE Trust - India)</a></div>
-								</div>
-							 </div>
-						  </div>
-					   </div>
-					</div>
-				 </div>
-			  </div>
-		   </section>
-		</div>
-	 </footer>
-      <link rel='stylesheet' id='elementor-post-11145-css' href="{{ url('website/asset/wp-content/uploads/elementor/css/post-11145.css')}}" media='all' />
-      <link rel='stylesheet' id='elementor-post-11147-css' href="{{ url('website/asset/wp-content/uploads/elementor/css/post-11147.css')}}" media='all' />
-      <link rel='stylesheet' id='elementor-post-11149-css' href="{{ url('website/asset/wp-content/uploads/elementor/css/post-11149.css')}}" media='all' />
-      <link rel='stylesheet' id='elementor-post-11155-css' href="{{ url('website/asset/wp-content/uploads/elementor/css/post-11155.css')}}" media='all' />
-      <link rel='stylesheet' id='elementor-post-11151-css' href="{{ url('website/asset/wp-content/uploads/elementor/css/post-11151.css')}}" media='all' />
-      <link rel='stylesheet' id='elementor-post-11153-css' href="{{ url('website/asset/wp-content/uploads/elementor/css/post-11153.css')}}" media='all' />
-      <link rel='stylesheet' id='e-animations-css' href="{{ url('website/asset/wp-content/plugins/elementor/assets/lib/animations/animations.min.css')}}" media='all' />
-      <script id='ubermenu-js-extra'>
-         var ubermenu_data = {"remove_conflicts":"on","reposition_on_load":"off","intent_delay":"300","intent_interval":"100","intent_threshold":"7","scrollto_offset":"50","scrollto_duration":"1000","responsive_breakpoint":"991","accessible":"on","retractor_display_strategy":"responsive","touch_off_close":"on","submenu_indicator_close_mobile":"on","collapse_after_scroll":"on","v":"3.7.3","configurations":["main"],"ajax_url":"https:\/\/alonethemes.com\/wp-admin\/admin-ajax.php","plugin_url":"https:\/\/alonethemes.com\/wp-content\/plugins\/ubermenu\/","disable_mobile":"off","prefix_boost":"","use_core_svgs":"off","aria_role_navigation":"off","aria_nav_label":"off","aria_expanded":"off","aria_hidden":"off","aria_controls":"","aria_responsive_toggle":"off","icon_tag":"i","esc_close_mobile":"on","theme_locations":{"primary":"Primary Menu","footer":"Footer Menu"}};
-      </script>
-      <script src="{{ url('website/asset/wp-content/plugins/ubermenu/assets/js/ubermenu.min.js')}}" id='ubermenu-js'></script>
-      <script src="{{ url('website/asset/wp-content/plugins/bearsthemes-addons/assets/js/swiper.min.js')}}" id='bearsthemes-swiper-js'></script>
-      <script src="{{ url('website/asset/wp-content/plugins/bearsthemes-addons/assets/js/jquery.magnific-popup.min.js')}}" id='jquery-magnific-popup-js'></script>
-      <script src="{{ url('website/asset/wp-content/plugins/bearsthemes-addons/assets/js/frontend.js')}}" id='bearsthemes-addons-js'></script>
-      <script src="{{ url('website/asset/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js')}}" id='elementor-waypoints-js'></script>
-      <script src="{{ url('website/asset/wp-content/plugins/bearsthemes-addons/assets/js/progressbar.min.js')}}" id='jquery-progressbar-js'></script>
-      <script src="{{ url('website/asset/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js')}}" id='elementor-pro-webpack-runtime-js'></script>
-      <script src="{{ url('website/asset/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js')}}" id='elementor-webpack-runtime-js'></script>
-      <script src="{{ url('website/asset/wp-content/plugins/elementor/assets/js/frontend-modules.min.js')}}" id='elementor-frontend-modules-js'></script>
-      <script id='elementor-pro-frontend-js-before'>
-         var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/alonethemes.com\/wp-admin\/admin-ajax.php","nonce":"18dff8206a","urls":{"assets":"https:\/\/alonethemes.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/alonethemes.com\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"woocommerce":{"menu_cart":{"cart_page_url":"https:\/\/alonethemes.com\/cart\/","checkout_page_url":"https:\/\/alonethemes.com\/checkout\/","fragments_nonce":"122340f244"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/alonethemes.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
-      </script>
-      <script src="{{ url('website/asset/wp-content/plugins/elementor-pro/assets/js/frontend.min.js')}}" id='elementor-pro-frontend-js'></script>
-      <script id='elementor-frontend-js-before'>
-         var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.12.2","is_static":false,"experimentalFeatures":{"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"theme_builder_v2":true,"landing-pages":true,"page-transitions":true,"notes":true,"loop":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/alonethemes.com\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","woocommerce_notices_elements":[]},"post":{"id":5122,"title":"Home%20Hardeol%20-%20Alone","excerpt":"","featuredImage":false}};
-      </script>
-      <script src="{{ url('website/asset/wp-content/plugins/elementor/assets/js/frontend.min.js')}}" id='elementor-frontend-js'></script>
-      <script src="{{ url('website/asset/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js')}}" id='e-sticky-js'></script>
-   </body>
+	  @include('website.layout.footer')
+	</body>
 </html>
 
  

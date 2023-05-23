@@ -14,7 +14,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
       <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="./asset/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="{{url('website/asset/fonts/font-awesome-4.7.0/css/font-awesome.min.css')}}">
       <link rel='stylesheet' id='give-styles-css' href="{{ url('website/asset/wp-content/plugins/give/assets/dist/css/give.css')}}" media='all' />
       <link rel='stylesheet' id='elementor-frontend-css' href="{{ url('website/asset/wp-content/plugins/elementor/assets/css/frontend-lite.min.css')}}" media='all' />
       <link rel='stylesheet' id='elementor-post-5122-css' href="{{ url('website/asset/wp-content/uploads/elementor/css/post-5122.css')}}" media='all' />
@@ -30,13 +30,13 @@
       <link rel='stylesheet' id='bearsthemes-addons-events-css' href="{{ url('website/asset/wp-content/plugins/bearsthemes-addons/assets/css/events.css')}}" media='all' />
       <link rel='stylesheet' id='bearsthemes-addons-sermone-css' href="{{ url('website/asset/wp-content/plugins/bearsthemes-addons/assets/css/sermone.css')}}" media='all' />
       <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPT+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.2.1' media='all' />
-      <script src='./asset/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
+      <script src="{{url('website/asset/wp-includes/js/jquery/jquery.min.js')}}" id='jquery-core-js'></script>
       <meta name="generator" content="Give v2.27.0" />
       <meta name="tec-api-version" content="v1">
       <link rel="icon" href="{{ url('website/asset/favico/221X192.svg')}}" sizes="32x32" />
       <link rel="icon" href="{{ url('website/asset/favico/221X192.svg')}}" sizes="192x192" />
-      <link rel="apple-touch-icon" href="./asset/favico/221X192.svg" />
-      <!-- <link rel="stylesheet" href="./asset/css/custom/bloackqoutes.css"> -->
+      <link rel="apple-touch-icon" href="{{url('website/asset/favico/221X192.svg')}}" />
+      <!-- <link rel="stylesheet" href="{{url('website/asset/css/custom/bloackqoutes.css')}}"> -->
       <meta name="msapplication-TileImage" content="{{ url('website/asset/favico/221X192.svg')}}" />
    </head>
    <body class="page-template page-template-elementor_header_footer page page-id-5122 wp-custom-logo wp-embed-responsive theme-alone woocommerce-no-js tribe-no-js singular has-mini-items shop-bages elementor-default elementor-template-full-width elementor-kit-9 elementor-page elementor-page-5122">
@@ -83,7 +83,7 @@
                                                       </style>
                                                       <div class="elementor-image">
                                                          <a href="#">
-                                                         <img style="width: 25%; padding-bottom: 5%; padding-top: 5%; " width="201" height="60" src="./asset/logo/icon.svg" class="attachment-full size-full wp-image-11815" alt="" loading="lazy" />								</a>
+                                                         <img style="width: 25%; padding-bottom: 5%; padding-top: 5%; " width="201" height="60" src="{{url('websites/asset/logo/icon.svg')}}" class="attachment-full size-full wp-image-11815" alt="" loading="lazy" />								</a>
                                                       </div>
                                                    </div>
                                                 </div>
@@ -170,7 +170,7 @@
             <div class="elementor-section-wrap">
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-55b895c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="55b895c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;&quot;,&quot;background_play_on_mobile&quot;:&quot;yes&quot;}">
 					<div class="elementor-background-video-container">
-					   <video class="elementor-background-video-hosted elementor-html5-video" autoplay="" muted="" playsinline="" loop="" src="./asset/video/heroBanner/supportProgram.mp4" style="width: 1440px; height: 810px;"></video>
+					   <video class="elementor-background-video-hosted elementor-html5-video" autoplay="" muted="" playsinline="" loop="" src="{{url('website/asset/video/heroBanner/supportProgram.mp4')}}" style="width: 1440px; height: 810px;"></video>
 					</div>
 					<div class="elementor-background-overlay"></div>
 					<div class="elementor-container elementor-column-gap-extended">
@@ -538,7 +538,7 @@
 											  <h3 class="give-card__title">
 												 <a href="https://alonethemes.com/donations/help-to-raise-valuable-donations-for-kids/">Help to raise valuable donations for Kids</a>
 											  </h3>
-												 <a href="./asset/reports/LIFE annual Report 19-20.pdf" download>
+												 <a href="{{url('website/asset/reports/LIFE annual Report 19-20.pdf')}}" download>
 													<button type="button" class="give-btn give-btn-modal">Download PDF</button>
 												  </a>                                                                                                    
 										   </div>
@@ -553,7 +553,7 @@
 											  <h3 class="give-card__title">
 												 <a href="https://alonethemes.com/donations/help-to-raise-valuable-donations-for-kids/">Visit to a village tribal school for Education program</a>
 											  </h3>
-												 <a href="./asset/reports/LIFE annual Report 19-20.pdf" download>
+												 <a href="{{url('website/asset/reports/LIFE annual Report 19-20.pdf')}}" download>
 													<button type="button" class="give-btn give-btn-modal">Download PDF</button>
 												  </a>                                                                                                    
 										   </div>
@@ -756,7 +756,7 @@
 							  <div class="elementor-widget-container">
 								 <div class="elementor-image-box elementor-image-box--skin-hardeol">
 									<div class="elementor-image-box__image">
-									   <img decoding="async" src="./asset/images/hdl-box-2.jpg" alt="">      
+									   <img decoding="async" src="{{url('website/asset/images/hdl-box-2.jpg')}}" alt="">      
 									   <div class="elementor-image-box__overlay"></div>
 									</div>
 									<div class="elementor-image-box__content">

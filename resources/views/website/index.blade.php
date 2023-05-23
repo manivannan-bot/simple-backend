@@ -38,7 +38,7 @@
       <link rel="icon" href="{{ url('website/asset/favico/221X192.svg')}}" sizes="32x32" />
       <link rel="icon" href="{{ url('website/asset/favico/221X192.svg')}}" sizes="192x192" />
       <link rel="apple-touch-icon" href="{{ url('website/asset/favico/221X192.svg')}}" />
-      <!-- <link rel="stylesheet" href="./asset/css/custom/bloackqoutes.css"> -->
+      <!-- <link rel="stylesheet" href="{{url('website/asset/css/custom/bloackqoutes.css')}}"> -->
       <meta name="msapplication-TileImage" content="{{ url('website/asset/favico/221X192.svg')}}" />
    </head>
    <body class="page-template page-template-elementor_header_footer page page-id-5122 wp-custom-logo wp-embed-responsive theme-alone woocommerce-no-js tribe-no-js singular has-mini-items shop-bages elementor-default elementor-template-full-width elementor-kit-9 elementor-page elementor-page-5122">
@@ -85,7 +85,7 @@
                                                       </style>
                                                       <div class="elementor-image">
                                                          <a href="#">
-                                                         <img style="width: 25%; padding-bottom: 5%; padding-top: 5%; " width="201" height="60" src="./asset/logo/icon.svg" class="attachment-full size-full wp-image-11815" alt="" loading="lazy" />								</a>
+                                                         <img style="width: 25%; padding-bottom: 5%; padding-top: 5%; " width="201" height="60" src="{{url('website/asset/logo/icon.svg')}}" class="attachment-full size-full wp-image-11815" alt="" loading="lazy" />								</a>
                                                       </div>
                                                    </div>
                                                 </div>
@@ -172,7 +172,7 @@
             <div class="elementor-section-wrap">
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-55b895c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="55b895c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;&quot;,&quot;background_play_on_mobile&quot;:&quot;yes&quot;}">
 					<div class="elementor-background-video-container">
-					   <video class="elementor-background-video-hosted elementor-html5-video" autoplay="" muted="" playsinline="" loop="" src="./asset/video/heroBanner/supportProgram.mp4" style="width: 1440px; height: 810px;"></video>
+					   <video class="elementor-background-video-hosted elementor-html5-video" autoplay="" muted="" playsinline="" loop="" src="{{url('website/asset/video/heroBanner/supportProgram.mp4')}}" style="width: 1440px; height: 810px;"></video>
 					</div>
 					<div class="elementor-background-overlay"></div>
 					<div class="elementor-container elementor-column-gap-extended">
@@ -540,7 +540,7 @@
 											  <h3 class="give-card__title">
 												 <a href="https://alonethemes.com/donations/help-to-raise-valuable-donations-for-kids/">Help to raise valuable donations for Kids</a>
 											  </h3>
-												 <a href="./asset/reports/LIFE annual Report 19-20.pdf" download>
+												 <a href="{{url('website/asset/reports/LIFE annual Report 19-20.pdf')}}" download>
 													<button type="button" class="give-btn give-btn-modal">Download PDF</button>
 												  </a>                                                                                                    
 										   </div>
@@ -555,7 +555,7 @@
 											  <h3 class="give-card__title">
 												 <a href="https://alonethemes.com/donations/help-to-raise-valuable-donations-for-kids/">Visit to a village tribal school for Education program</a>
 											  </h3>
-												 <a href="./asset/reports/LIFE annual Report 19-20.pdf" download>
+												 <a href="{{url('website/asset/reports/LIFE annual Report 19-20.pdf')}}" download>
 													<button type="button" class="give-btn give-btn-modal">Download PDF</button>
 												  </a>                                                                                                    
 										   </div>
@@ -563,14 +563,14 @@
 										<article id="post-98" class="elementor-give-form has-thumbnail post-98 give_forms type-give_forms status-publish has-post-thumbnail give_forms_category-children give_forms_tag-chariry give_forms_tag-children give_forms_tag-support entry">
 										   <div class="give-card__category"><a href="" rel="tag">2021 - Reports</a></div>
 										   <div class="give-card__media">
-											  <img width="300" height="200" src="./asset/reports/thumb-2019.png" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="{{url('website/asset/reports/thumb-2019.png')}} 300w, {{url('website/asset/reports/thumb-2019.png')}} 1024w, {{url('website/asset/reports/thumb-2019.png')}} 768w, {{url('website/asset/reports/thumb-2019.png')}} 600w, {{url('website/asset/reports/thumb-2019.png')}} 1200w" sizes="(max-width: 300px) 100vw, 300px">
+											  <img width="300" height="200" src="{{url('website/asset/reports/thumb-2019.png')}}" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="{{url('website/asset/reports/thumb-2019.png')}} 300w, {{url('website/asset/reports/thumb-2019.png')}} 1024w, {{url('website/asset/reports/thumb-2019.png')}} 768w, {{url('website/asset/reports/thumb-2019.png')}} 600w, {{url('website/asset/reports/thumb-2019.png')}} 1200w" sizes="(max-width: 300px) 100vw, 300px">
 											  <div class="give-card__overlay"></div>
 										   </div>
 										   <div class="give-card__body">
 											  <h3 class="give-card__title">
 												 <a href="https://alonethemes.com/donations/help-to-raise-valuable-donations-for-kids/">COVID-19 Pandemic and services by LIFE Trust - India</a>
 											  </h3>
-												 <a href="./asset/reports/LIFE annual Report 19-20.pdf" download>
+												 <a href="{{url('website/asset/reports/LIFE annual Report 19-20.pdf')}}" download>
 													<button type="button" class="give-btn give-btn-modal">Download PDF</button>
 												  </a>                                                                                                    
 										   </div>
@@ -758,7 +758,7 @@
 							  <div class="elementor-widget-container">
 								 <div class="elementor-image-box elementor-image-box--skin-hardeol">
 									<div class="elementor-image-box__image">
-									   <img decoding="async" src="./asset/images/hdl-box-2.jpg" alt="">      
+									   <img decoding="async" src="{{url('website/asset/images/hdl-box-2.jpg')}}" alt="">      
 									   <div class="elementor-image-box__overlay"></div>
 									</div>
 									<div class="elementor-image-box__content">

@@ -15,6 +15,14 @@ class DashboardController extends Controller
      */
     public function index()
     {
+        if (session()->has('verified')) {
+            session()->flash('success', __('E-Mail verified successfully.'));
+        }
+
+        return view('dashboard.index');
+    }
+    public function website()
+    {
         // if (session()->has('verified')) {
         //     session()->flash('success', __('E-Mail verified successfully.'));
         // }

@@ -1,17 +1,11 @@
 <?php
 
-// Website 
-Route::get('/', 'DashboardController@website');
-
-
-// Admin
 /**
  * Authentication
  */
-    Route::get('login', 'Auth\LoginController@show');
-    Route::post('login', 'Auth\LoginController@login');
-    Route::get('logout', 'Auth\LoginController@logout')->name('auth.logout');
-
+Route::get('admin/login', 'Auth\LoginController@show');
+Route::post('login', 'Auth\LoginController@login');
+Route::get('logout', 'Auth\LoginController@logout')->name('auth.logout');
 
 Route::group(['middleware' => ['registration', 'guest']], function () {
     Route::get('register', 'Auth\RegisterController@show');
@@ -46,14 +40,14 @@ Route::group(['middleware' => 'auth'], function () {
     Route::impersonate();
 });
 
+Route::get('/', 'DashboardController@website')->name('dashboard');
 
-
-Route::group(['prefix' => 'admin','middleware' => ['auth', 'verified']], function () {
+Route::group(['middleware' => ['auth', 'verified']], function () {
 
     /**
      * Dashboard
      */
-    Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
+    // Route::get('/', 'DashboardController@website')->name('dashboard');
 
     
     /**
@@ -213,13 +207,3 @@ Route::group(['prefix' => 'install'], function () {
     Route::get('complete', 'InstallController@complete')->name('install.complete');
     Route::get('error', 'InstallController@error')->name('install.error');
 });
-
-
-Route::get('gallery', function () {
-    return view('website.gallery');
-})->name('gallery');
-
-Route::get('reports', function () {
-    return view('website.gallery');
-})->name('gallery');
-

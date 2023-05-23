@@ -119,7 +119,7 @@
 																</ul>
 															 </li>
 															 <li class="ubermenu-item ubermenu-item-level-0  ubermenu-has-submenu-drop">
-																<a class="ubermenu-target" href="" tabindex="0">
+																<a class="ubermenu-target" href="{{url('gallery')}}" tabindex="0">
 																   <span >Gallery</span>
 																</a>
 															 </li>

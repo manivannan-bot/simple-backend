@@ -51,7 +51,7 @@ class LoginController extends Controller
 
         //Redirect URL that can be passed as hidden field.
         $to = $request->has('to') ? "?to=" . $request->get('to') : '';
-
+        
         if ($throttles && $this->hasTooManyLoginAttempts($request)) {
             return $this->sendLockoutResponse($request);
         }
@@ -101,12 +101,12 @@ class LoginController extends Controller
         }
 
         event(new LoggedIn);
-
+        
         if ($request->has('to')) {
             return redirect()->to($request->get('to'));
         }
 
-        return redirect()->intended();
+        return redirect()->intended('/admin/dashboard');
     }
 
     /**

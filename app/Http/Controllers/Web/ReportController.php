@@ -115,9 +115,6 @@ class ReportController extends Controller
                 }
                 //print_r($reports);exit;
                 return view('website.gallery', compact('reports'));
-
-
-
     }
    
 }

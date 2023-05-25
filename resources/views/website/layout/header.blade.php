@@ -104,7 +104,12 @@
                                                             <div class="ubermenu-mobile-header"><img width="191" height="87" src="https://alonethemes.com/wp-content/uploads/2021/06/pmr-logo.png" ></div>
                                                             <ul id="ubermenu-nav-main-290" class="ubermenu-nav" data-title="Mega menu">
                                                                <li id="menu-item-11212" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-current-menu-ancestor ubermenu-item-has-children ubermenu-item-11212 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega" >
-                                                                  <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="#" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Home</span></a>
+                                                                  <a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Home</span></a>
+                                                               </li>
+                                                               <li class="ubermenu-item ubermenu-item-level-0  ubermenu-has-submenu-drop">
+                                                                  <a class="ubermenu-target" href="/#board_of_trustees" tabindex="0" onclick="scrollToElement()">
+                                                                     <span >Profile</span>
+                                                                  </a>
                                                                </li>
 															   <li class="ubermenu-item ubermenu-item-level-0  ubermenu-has-submenu-drop">
 																<a class="ubermenu-target" href="" tabindex="0">
@@ -141,10 +146,11 @@
 																   <li class="ubermenu-item   "><a class="ubermenu-target" href=""><span >Become a Volunteer</span></a></li>
 																   <li class="ubermenu-item   "><a class="ubermenu-target" href=""><span >Careers and Internships</span></a></li>
 																   <li class="ubermenu-item   "><a class="ubermenu-target" href=""><span >Partnerships</span></a></li>
+                                                   <li class="ubermenu-item   "><a class="ubermenu-target" href=""><span >Contact Us</span></a></li>
 																</ul>
 															 </li>
 															 <li class="mobi-none-mega ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-11284 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega">
-																<a class="ubermenu-target" href="#" tabindex="0"><span >Contact Us</span></a>
+												
 															 </li>
                                                             </ul>
                                                             <div class="ubermenu-mobile-footer"><button class="ubermenu-mobile-close-button"><i class="fas fa-times"></i> Close</button></div>
@@ -168,5 +174,13 @@
          </div>
       </header>
    </body>
+
+               <script>
+                  function scrollToElement() {
+                     var element = document.getElementById('board_of_trustees');
+                     element.scrollIntoView({ behavior: 'smooth' });
+                  }
+            </script>
+
     
 </html>

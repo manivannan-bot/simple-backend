@@ -10,6 +10,17 @@
             <input type="text" class="form-control input-solid" id="type"
                    name="type" placeholder="@lang('Type')" value="{{ $edit ? $user->type : '' }}">
         </div>
+        <div class="form-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown button
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" value="Event">Event</a>
+                <a class="dropdown-item" value="AnnuualReport">Annuual Report</a>
+                <a class="dropdown-item" value="Publication">Publication</a>
+                <a class="dropdown-item" value="StudyMaterial">Study Material</a>
+            </div>
+        </div>
     </div>
 
     <div class="col-md-8">

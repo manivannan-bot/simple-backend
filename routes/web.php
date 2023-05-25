@@ -195,6 +195,17 @@ Route::group(['prefix' => 'admin','middleware' => ['auth', 'verified']], functio
 
     Route::get('activity/user/{user}/log', 'Users\ActivityController@index')->name('activity.user')
         ->middleware('permission:users.activity');
+    
+    /**
+     * Report Created
+     */
+
+
+    Route::get('report/create', 'ReportController@show')->name('report.show')
+        ->middleware('permission:users.activity');
+
+    Route::post('report/create', 'ReportController@create')->name('report.create')
+    ->middleware('permission:users.activity');
 });
 
 

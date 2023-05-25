@@ -55,6 +55,7 @@
                     @endif
                 </ul>
 
+
                 <div class="tab-content mt-4" id="nav-tabContent">
                     <div class="tab-pane fade show active px-2"
                          id="details"
@@ -84,7 +85,7 @@
                         <div class="tab-pane fade px-2" id="2fa" role="tabpanel" aria-labelledby="nav-profile-tab">
                             <?php $route = Authy::isEnabled($user) ? 'disable' : 'enable'; ?>
 
-                            <form action="{{ route("two-factor.{$route}") }}" method="POST" id="two-factor-form">
+                            <form action="{{ route('two-factor.{$route}') }}" method="POST" id="two-factor-form">
                                 @csrf
                                 @include('user.partials.two-factor')
                             </form>
@@ -99,7 +100,7 @@
     <div class="col-md-4">
         <div class="card">
             <div class="card-body">
-                <form action="{{ route("profile.update.avatar") }}"
+                <form action="{{ route('profile.update.avatar') }}"
                       method="POST"
                       id="avatar-form"
                       enctype="multipart/form-data">

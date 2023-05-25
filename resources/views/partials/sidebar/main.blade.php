@@ -31,6 +31,7 @@
             @foreach (\Vanguard\Plugins\Vanguard::availablePlugins() as $plugin)
                 @include('partials.sidebar.items', ['item' => $plugin->sidebar()])
             @endforeach
+            @include('partials.sidebar.sidebar-added')
         </ul>
     </div>
 </nav>

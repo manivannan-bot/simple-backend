@@ -20,7 +20,10 @@
             @foreach ($item->children() as $child)
                 @include('partials.sidebar.items', ['item' => $child])
             @endforeach
+            
         </ul>
     @endif
+    
 </li>
 @endif
+

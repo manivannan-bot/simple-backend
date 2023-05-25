@@ -6,21 +6,15 @@
                    name="title" placeholder="@lang('Title')" value="{{ $edit ? $user->title : '' }}">
         </div>
         <div class="form-group">
-            <label for="last_name">@lang('Type')</label>
-            <input type="text" class="form-control input-solid" id="type"
-                   name="type" placeholder="@lang('Type')" value="{{ $edit ? $user->type : '' }}">
+        <label for="last_name">@lang('Type')</label>
+                <select class="form-control" name="type">
+                    <option value="Event">Event</option>
+                    <option value="AnnuualReport">Annual Report</option>
+                    <option value="Publication">Publication</option>
+                    <option value="StudyMaterial">Study Material</option>
+                </select>
         </div>
-        <div class="form-group">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown button
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" value="Event">Event</a>
-                <a class="dropdown-item" value="AnnuualReport">Annuual Report</a>
-                <a class="dropdown-item" value="Publication">Publication</a>
-                <a class="dropdown-item" value="StudyMaterial">Study Material</a>
-            </div>
-        </div>
+
     </div>
 
     <div class="col-md-8">

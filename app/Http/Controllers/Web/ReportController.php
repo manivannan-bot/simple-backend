@@ -48,10 +48,10 @@ class ReportController extends Controller
     public function create()
     {
 
-        // print_r($_POST);
-        // print_r($_FILES);
-        // print_r($_REQUEST);
-        // exit;
+        print_r($_POST);
+        print_r($_FILES);
+        print_r($_REQUEST);
+        exit;
 
         $report = Report::create([
             'title' => $_POST['title'],

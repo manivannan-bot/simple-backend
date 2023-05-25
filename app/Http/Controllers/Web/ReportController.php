@@ -11,7 +11,7 @@ use Vanguard\Repositories\User\UserRepository;
 use Vanguard\Support\Enum\UserStatus;
 use Illuminate\Support\Facades\Storage;
 use Vanguard\Report;
-
+use Illuminate\Support\Facades\DB;
 
 class ReportController extends Controller
 {
@@ -87,9 +87,6 @@ class ReportController extends Controller
         
         $report->save();
         
-        
-        
-        
         $roles = $this->roles->all()->filter(function ($role) {
             return $role->id == auth()->user()->role_id;
         })->pluck('name', 'id');
@@ -102,6 +99,25 @@ class ReportController extends Controller
             'socialLogins' => $this->users->getUserSocialLogins(auth()->id()),
             'statuses' => UserStatus::lists()
         ]);
+    }
+
+    
+    public function get_report()
+    {
+        
+                $reports = DB::table('reports')->get();
+                foreach ($reports as $report) {
+                    $bannerPath = $report->banner;
+                    $customFilePath = $report->custom_file;
+                   // print_r($bannerPath);
+                
+                    // Use the storage paths as needed
+                }
+                //print_r($reports);exit;
+                return view('website.gallery', compact('reports'));
+
+
+
     }
    
 }

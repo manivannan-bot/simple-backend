@@ -11,7 +11,7 @@ class Report extends Model
 
     protected $table = 'reports';
 
-    protected $fillable = ['title', 'type', 'description'];
+    protected $fillable = ['title', 'type', 'description','banner','custom_file'];
 
     protected $casts = [
         'removable' => 'boolean'

@@ -226,9 +226,11 @@ Route::group(['prefix' => 'install'], function () {
 });
 
 
-Route::get('gallery', function () {
-    return view('website.gallery');
-})->name('gallery');
+Route::get('gallery', 'ReportController@get_report')->name('gallery');
+Route::get('events', function () {
+    return view('website.events');
+})->name('events');
+
 
 Route::get('reports', function () {
     return view('website.gallery');

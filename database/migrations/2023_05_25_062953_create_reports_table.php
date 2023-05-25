@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('type')->nullable();
             $table->string('description')->nullable();
             $table->string('banner')->nullable();
-            $table->string('customFile')->nullable();
+            $table->string('custom_file')->nullable();
             $table->timestamps();
 
         });

@@ -9,7 +9,7 @@
             <div class="elementor-section-wrap">
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-55b895c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="55b895c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;&quot;,&quot;background_play_on_mobile&quot;:&quot;yes&quot;}">
 					<div class="elementor-background-video-container">
-					   <video class="elementor-background-video-hosted elementor-html5-video" autoplay="" muted="" playsinline="" loop="" src="{{url('website/asset/video/heroBanner/supportProgram.mp4')}}" style="width: 1440px; height: 810px;"></video>
+					   <video class="elementor-background-video-hosted elementor-html5-video" autoplay="" muted="" playsinline="" loop="" src="{{url('website/asset/video/heroBanner/supportProgram.mp4')}}" style="width:2880px; height: 810px;"></video>
 					</div>
 					<div class="elementor-background-overlay"></div>
 					<div class="elementor-container elementor-column-gap-extended">
@@ -467,49 +467,15 @@
 				</script>
 		  </section>
 <!-- Events -->
-		  <section class="elementor-section elementor-top-section elementor-element elementor-element-b72dbd5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b72dbd5" data-element_type="section">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-b72dbd5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b72dbd5" data-element_type="section">
 			<div class="elementor-container elementor-column-gap-extended">
 			   <div class="elementor-row">
-				  <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-695f302" data-id="695f302" data-element_type="column">
+				  <!-- <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-695f302" data-id="695f302" data-element_type="column"> -->
 					 <div class="elementor-column-wrap elementor-element-populated">
 						<div class="elementor-widget-wrap">
 						   <div class="elementor-element elementor-element-fa50153 elementor-invisible elementor-widget elementor-widget-heading" data-id="fa50153" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
 							  <div class="elementor-widget-container">
 								 <h2 class="elementor-heading-title elementor-size-default">Events</h2>
-							  </div>
-						   </div>
-						   <div class="elementor-element elementor-element-442b58f elementor-view-default elementor-invisible elementor-widget elementor-widget-icon" data-id="442b58f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon.default">
-							  <div class="elementor-widget-container">
-								 <div class="elementor-icon-wrapper">
-									<div class="elementor-icon">
-									   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" x="0px" y="0px" viewBox="0 0 504.125 504.125" style="enable-background:new 0 0 504.125 504.125;" xml:space="preserve">
-										  <path style="fill:#3A7F0D;" d="M339.772,0c0,0,44.536,108.954-146.337,182.138C89.719,221.893,10.059,323.789,105.173,481.193  c7.877-70.357,41.653-225.485,186.888-260.884c0,0-135.176,50.546-147.117,279.347c69.459,9.752,232.361,16.305,280.726-125.062  C489.536,187.817,339.772,0,339.772,0z"></path>
-										  <path style="fill:#49A010;" d="M145.007,498.704c147.456-58.849,254.748-196.71,269.556-361.283C384.418,56.107,339.772,0,339.772,0  s44.536,108.954-146.337,182.138C89.719,221.893,10.059,323.789,105.173,481.193c7.877-70.357,41.653-225.485,186.888-260.884  C292.053,220.31,157.279,270.73,145.007,498.704z"></path>
-										  <circle style="fill:#3A7F0D;" cx="90.459" cy="171.985" r="13.785"></circle>
-										  <g>
-											 <circle style="fill:#49A010;" cx="133.782" cy="158.2" r="9.846"></circle>
-											 <circle style="fill:#49A010;" cx="124.921" cy="64.662" r="24.615"></circle>
-											 <circle style="fill:#49A010;" cx="200.736" cy="120.785" r="7.877"></circle>
-											 <circle style="fill:#49A010;" cx="266.713" cy="76.477" r="22.646"></circle>
-										  </g>
-										  <g></g>
-										  <g></g>
-										  <g></g>
-										  <g></g>
-										  <g></g>
-										  <g></g>
-										  <g></g>
-										  <g></g>
-										  <g></g>
-										  <g></g>
-										  <g></g>
-										  <g></g>
-										  <g></g>
-										  <g></g>
-										  <g></g>
-									   </svg>
-									</div>
-								 </div>
 							  </div>
 						   </div>
 						   <div class="elementor-element elementor-element-beb6de4 elementor-invisible elementor-widget elementor-widget-be-posts" data-id="beb6de4" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="be-posts.skin-list-hardeol">
@@ -518,18 +484,15 @@
 									<article id="post-14394" class="elementor-post has-thumbnail post-14394 post type-post status-publish format-standard has-post-thumbnail hentry category-education category-vaccine tag-charity tag-give tag-help entry">
 									   <div class="elementor-post__thumbnail-wrap">
 										  <div class="elementor-post__thumbnail">
-											 <img width="768" height="512" src="{{url('website/lifeTrustIndia_files/vcn-post-8-min-768x512.jpg')}}" class="attachment-medium_large size-medium_large wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://alonethemes.com/wp-content/uploads/2021/08/vcn-post-8-min-768x512.jpg 768w, https://alonethemes.com/wp-content/uploads/2021/08/vcn-post-8-min-300x200.jpg 300w, https://alonethemes.com/wp-content/uploads/2021/08/vcn-post-8-min-1024x683.jpg 1024w, https://alonethemes.com/wp-content/uploads/2021/08/vcn-post-8-min-600x400.jpg 600w, https://alonethemes.com/wp-content/uploads/2021/08/vcn-post-8-min.jpg 1200w" sizes="(max-width: 768px) 100vw, 768px">            
+											 <img width="768" height="512" src="{{url('website/asset/images/events/Avinashilingam.JPG')}}" class="attachment-medium_large size-medium_large wp-post-image" alt="" decoding="async" loading="lazy" srcset="{{url('website/asset/images/events/Avinashilingam.JPG')}} 768w, {{url('website/asset/images/events/Avinashilingam.JPG')}} 300w, {{url('website/asset/images/events/Avinashilingam.JPG')}} 1024w, {{url('website/asset/images/events/Avinashilingam.JPG')}} 600w, {{url('website/asset/images/events/Avinashilingam.JPG')}} 1200w" sizes="(max-width: 768px) 100vw, 768px">            
 										  </div>
 									   </div>
 									   <div class="elementor-post__content">
-										  <h3 class="elementor-post__title"><a href="https://alonethemes.com/our-donation-is-hope-for-poor-childrens-copy/">Our donation is hope for poor childrens</a></h3>
+										  <h3 class="elementor-post__title"><a href="./content_screen.html">Internship program for Avinashilingam University’s <br>
+											Post Graduates students</a></h3>
 										  <ul class="elementor-post__meta">
 											 <li>
-												<time class="entry-date published" datetime="2021-08-14T05:16:24+00:00">August 14, 2021</time>  	          
-											 </li>
-											 <li>
-												<a class="elementor-post__comment-count" href="https://alonethemes.com/our-donation-is-hope-for-poor-childrens-copy/#respond">
-												0 Comment  	            </a>
+												<time class="entry-date published" datetime="2021-08-14T05:16:24+00:00">June to July 2023</time>  	          
 											 </li>
 										  </ul>
 									   </div>
@@ -537,18 +500,14 @@
 									<article id="post-1783" class="elementor-post has-thumbnail post-1783 post type-post status-publish format-standard has-post-thumbnail hentry category-health category-helping tag-events tag-support tag-volunteer entry">
 									   <div class="elementor-post__thumbnail-wrap">
 										  <div class="elementor-post__thumbnail">
-											 <img width="768" height="450" src="./lifeTrustIndia_files/give-7-768x450.jpg" class="attachment-medium_large size-medium_large wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://alonethemes.com/wp-content/uploads/2020/09/give-7-768x450.jpg 768w, https://alonethemes.com/wp-content/uploads/2020/09/give-7-300x176.jpg 300w, https://alonethemes.com/wp-content/uploads/2020/09/give-7-1024x599.jpg 1024w, https://alonethemes.com/wp-content/uploads/2020/09/give-7-600x351.jpg 600w, https://alonethemes.com/wp-content/uploads/2020/09/give-7.jpg 1500w" sizes="(max-width: 768px) 100vw, 768px">            
+											 <img width="768" height="450" src="{{url('website/asset/images/events/Elephent.jpg')}}" class="attachment-medium_large size-medium_large wp-post-image" alt="" decoding="async" loading="lazy" srcset="{{url('website/asset/images/events/Elephent.jpg')}} 768w, {{url('website/asset/images/events/Elephent.jpg')}} 300w, {{url('website/asset/images/events/Elephent.jpg')}} 1024w, {{url('website/asset/images/events/Elephent.jpg')}} 600w, {{url('website/asset/images/events/Elephent.jpg')}} 1500w" sizes="(max-width: 768px) 100vw, 768px">            
 										  </div>
 									   </div>
 									   <div class="elementor-post__content">
-										  <h3 class="elementor-post__title"><a href="https://alonethemes.com/building-financial-capability-for-children/">Building Financial Capability for Children</a></h3>
+										  <h3 class="elementor-post__title"><a href="./events.html">Human Elephent Coexistence Workshop at Odisha</a></h3>
 										  <ul class="elementor-post__meta">
 											 <li>
-												<time class="entry-date published" datetime="2021-07-02T12:10:00+00:00">July 2, 2021</time>  	          
-											 </li>
-											 <li>
-												<a class="elementor-post__comment-count" href="https://alonethemes.com/building-financial-capability-for-children/#respond">
-												0 Comment  	            </a>
+												<time class="entry-date published" datetime="2021-07-02T12:10:00+00:00">May 27 & 28 2023</time>  	          
 											 </li>
 										  </ul>
 									   </div>
@@ -556,65 +515,45 @@
 									<article id="post-14395" class="elementor-post has-thumbnail post-14395 post type-post status-publish format-standard has-post-thumbnail hentry category-activity category-vaccine tag-charity tag-donation tag-political entry">
 									   <div class="elementor-post__thumbnail-wrap">
 										  <div class="elementor-post__thumbnail">
-											 <img width="768" height="512" src="./lifeTrustIndia_files/vcn-post-2-min-768x512.jpg" class="attachment-medium_large size-medium_large wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://alonethemes.com/wp-content/uploads/2020/09/vcn-post-2-min-768x512.jpg 768w, https://alonethemes.com/wp-content/uploads/2020/09/vcn-post-2-min-300x200.jpg 300w, https://alonethemes.com/wp-content/uploads/2020/09/vcn-post-2-min-1024x683.jpg 1024w, https://alonethemes.com/wp-content/uploads/2020/09/vcn-post-2-min-600x400.jpg 600w, https://alonethemes.com/wp-content/uploads/2020/09/vcn-post-2-min.jpg 1200w" sizes="(max-width: 768px) 100vw, 768px">            
+											 <img width="768" height="512" src="{{url('website/asset/images/events/Nature.JPG')}}" class="attachment-medium_large size-medium_large wp-post-image" alt="" decoding="async" loading="lazy" srcset="{{url('website/asset/images/events/Nature.JPG')}} 768w, {{url('website/asset/images/events/Nature.JPG')}} 300w, {{url('website/asset/images/events/Nature.JPG')}} 1024w, {{url('website/asset/images/events/Nature.JPG')}} 600w, {{url('website/asset/images/events/Nature.JPG')}} 1200w" sizes="(max-width: 768px) 100vw, 768px">            
 										  </div>
 									   </div>
 									   <div class="elementor-post__content">
-										  <h3 class="elementor-post__title"><a href="https://alonethemes.com/make-life-easier-for-ebola-alzheimer-copy/">Make Life Easier for Ebola &amp; Alzheimer</a></h3>
+										  <h3 class="elementor-post__title"><a href="./events.html">Involving student for Nature conservation at <br>
+											Annai scholastica college, Rameswaram
+											</a></h3>
 										  <ul class="elementor-post__meta">
 											 <li>
-												<time class="entry-date published" datetime="2021-06-14T05:16:34+00:00">June 14, 2021</time>  	          
-											 </li>
-											 <li>
-												<a class="elementor-post__comment-count" href="https://alonethemes.com/make-life-easier-for-ebola-alzheimer-copy/#respond">
-												0 Comment  	            </a>
+												<time class="entry-date published" datetime="2021-06-14T05:16:34+00:00">June 10 2023</time>  	          
 											 </li>
 										  </ul>
 									   </div>
+									   
 									</article>
-								 </div>
-							  </div>
-						   </div>
-						   <div class="elementor-element elementor-element-9e4fa51 elementor-tablet-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="9e4fa51" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
-							  <div class="elementor-widget-container">
-								 <div class="elementor-button-wrapper">
-									<a href="https://alonethemes.com/home-hardeol/#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-									<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-icon elementor-align-icon-right">
-									<i aria-hidden="true" class="fas fa-angle-double-right"></i>			</span>
-									<span class="elementor-button-text">See More Article</span>
-									</span>
-									</a>
-								 </div>
-							  </div>
-						   </div>
-						</div>
-					 </div>
-				  </div>
-				  <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a90c2ee" data-id="a90c2ee" data-element_type="column">
-					 <div class="elementor-column-wrap elementor-element-populated">
-						<div class="elementor-widget-wrap">
-						   <div class="elementor-element elementor-element-b85c80a elementor-invisible elementor-widget elementor-widget-be-image-box" data-id="b85c80a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="be-image-box.skin-hardeol">
-							  <div class="elementor-widget-container">
-								 <div class="elementor-image-box elementor-image-box--skin-hardeol">
-									<div class="elementor-image-box__image">
-									   <img decoding="async" src="{{url('website/asset/images/hdl-box-2.jpg')}}" alt="">      
-									   <div class="elementor-image-box__overlay"></div>
-									</div>
-									<div class="elementor-image-box__content">
-									   <h3 class="elementor-image-box__title"><a href="https://alonethemes.com/home-hardeol/#">3 Ways to Save Species in Danger</a></h3>
-									   <div class="elementor-image-box__desc">Alienum phaedrum torquatos nec eu, vis detr in mei. Mei an periculaeuripidis Alienum pha m torquatos nec eu Alienum</div>
-									   <a class="elementor-image-box__read-more" href="https://alonethemes.com/home-hardeol/#">Companies &amp; Employers</a>		
-									</div>
+									<div class="elementor-element elementor-element-9e4fa51 elementor-tablet-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="9e4fa51" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
+										<div class="elementor-widget-container">
+										   <div class="elementor-button-wrapper">
+											  <a href="{{url('events')}}" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+											  <span class="elementor-button-content-wrapper">
+											  <span class="elementor-button-icon elementor-align-icon-right">
+											  <i aria-hidden="true" class="fas fa-angle-double-right"></i></span>
+											  <span class="elementor-button-text">See More </span>
+											  </span>
+											  </a>
+										   </div>
+										</div>
+									 </div>
+		  
 								 </div>
 							  </div>
 						   </div>
 						</div>
 					 </div>
 				  </div>
-			   </div>
+
+				</div>
 			</div>
-		 </section>
+		</section>
 	 </div>
          </div>
       </div>

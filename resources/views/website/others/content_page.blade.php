@@ -2605,26 +2605,22 @@
 	</style>
 </head>
 
-<body
-<?php    print_r($reports->description);
+<body class="post-template-default single single-post postid-14394 single-format-standard wp-custom-logo wp-embed-responsive theme-alone woocommerce-no-js tribe-no-js singular has-mini-items shop-bages elementor-default elementor-kit-9">
 
-         ?>
-	class="post-template-default single single-post postid-14394 single-format-standard wp-custom-logo wp-embed-responsive theme-alone woocommerce-no-js tribe-no-js singular has-mini-items shop-bages elementor-default elementor-kit-9">
-	<div id="content" class="site-content">
+<div id="content" class="site-content">
 		<div id="primary" class="content-area single-posts-template">
 			<main id="main" class="site-main">
 				<div class="container responsive">
 					<article id="post-14394"
 						class="single-post-wrap post-14394 post type-post status-publish format-standard has-post-thumbnail hentry category-education category-vaccine tag-charity tag-give tag-help entry">
 						<div class="entry-image">
-							<img width="1200" height="800" src="{{url('website/asset/images/events/Avinashilingam.JPG')}}"
+							<img width="1200" height="800" src="{{url($reports->banner)}}"
 								class="attachment-full size-full wp-post-image" alt="" decoding="async"
 								sizes="(max-width: 1200px) 100vw, 1200px" />
 						</div>
 						<div class="entry-content">
 							
-							<h1 class="entry-title">Internship program for Avinashilingam University’s
-								Post Graduates students
+							<h1 class="entry-title">{{$reports->title}}
 							</h1>
 							<div class="entry-content-inner">
 								<p>The <a href="#"> LIFE Trust India </a> offers a comprehensive one-month internship
@@ -2669,7 +2665,7 @@
 									<div class="entry-social-share">
 										<span>Get a brochure</span>
 										<a href="#" class="mail">
-											<img src="../asset/images/svg's/download.svg" height="12" width="12"
+											<img src="{{url('website/asset/images/svgs/download.svg')}}" height="12" width="12"
 												alt="download">
 										</a>
 									</div>

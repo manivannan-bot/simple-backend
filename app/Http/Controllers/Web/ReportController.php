@@ -135,5 +135,23 @@ class ReportController extends Controller
                 //print_r($reports);exit;
                 return view('website.events', compact('reports'));
     }
+    public function get_annual_reports()
+    {
+                $reports = DB::table('reports')->where('type','AnnualReport')->get();
+                //print_r($reports);exit;
+                return view('website.reports.annual-reports', compact('reports'));
+    }
+    public function get_publications()
+    {
+                $reports = DB::table('reports')->where('type','Publication')->get();
+                //print_r($reports);exit;
+                return view('website.reports.publications', compact('reports'));
+    }
+    public function get_education_materials()
+    {
+                $reports = DB::table('reports')->where('type','EducationMaterial')->get();
+                //print_r($reports);exit;
+                return view('website.reports.education-materials', compact('reports'));
+    }
    
 }

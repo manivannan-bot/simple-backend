@@ -133,9 +133,9 @@
 																   <span >Reports and Publications</span>
 																   </a>
 																<ul class="ubermenu-submenu ubermenu-submenu-type-flyout ubermenu-submenu-drop" >
-																   <li class="ubermenu-item"><a class="ubermenu-target" href=""><span >Annual report</span></a></li>
-																   <li class="ubermenu-item"><a class="ubermenu-target" href=""><span >Publications</span></a></li>
-																   <li class="ubermenu-item"><a class="ubermenu-target" href=""><span >Education materials</span></a></li>
+																   <li class="ubermenu-item"><a class="ubermenu-target" href="{{url('annual-reports')}}"><span >Annual report</span></a></li>
+																   <li class="ubermenu-item"><a class="ubermenu-target" href="{{url('publications')}}"><span >Publications</span></a></li>
+																   <li class="ubermenu-item"><a class="ubermenu-target" href="{{url('education-materials')}}"><span >Education materials</span></a></li>
 																</ul>
 															 </li>
 															 <li class="ubermenu-item ubermenu-item-level-0  ubermenu-has-submenu-drop">

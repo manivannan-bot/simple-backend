@@ -233,9 +233,11 @@ Route::get('events', 'ReportController@get_events')->name('events');
 // })->name('events');
 
 
-Route::get('reports', function () {
-    return view('website.gallery');
-})->name('gallery');
+Route::get('annual-reports','ReportController@get_annual_reports')->name('annual-reports');
+
+Route::get('publications','ReportController@get_publications')->name('publications');
+
+Route::get('education-materials','ReportController@get_education_materials')->name('education-materials');
 
 Route::get('content_screen', 'ReportController@get_content_id')->name('content_screen');
 

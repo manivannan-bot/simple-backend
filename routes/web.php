@@ -236,3 +236,5 @@ Route::get('reports', function () {
     return view('website.gallery');
 })->name('gallery');
 
+Route::get('content_screen', 'ReportController@get_content_id')->name('gallery');
+

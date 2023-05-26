@@ -31,7 +31,7 @@
 										<article id="post-98" class="elementor-give-form has-thumbnail post-98 give_forms type-give_forms status-publish has-post-thumbnail give_forms_category-children give_forms_tag-chariry give_forms_tag-children give_forms_tag-support entry">
 										   <div class="give-card__category"><a href="" rel="tag">June to July 2023 </a></div>
 										   <div class="give-card__media">
-											  <img width="300" height="200" src="./asset/images/events/Avinashilingam.JPG" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="./asset/reports/thumb-2019.png 300w, ./asset/reports/thumb-2019.png 1024w, ./asset/reports/thumb-2019.png 768w, ./asset/reports/thumb-2019.png 600w, ./asset/reports/thumb-2019.png 1200w" sizes="(max-width: 300px) 100vw, 300px">
+											  <img width="300" height="200" src="{{url('website/asset/images/events/Avinashilingam.JPG')}}" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="{{url('website/asset/reports/thumb-2019.png')}} 300w, {{url('website/asset/reports/thumb-2019.png')}} 1024w, {{url('website/asset/reports/thumb-2019.png')}} 768w, {{url('website/asset/reports/thumb-2019.png')}} 600w, {{url('website/asset/reports/thumb-2019.png')}} 1200w" sizes="(max-width: 300px) 100vw, 300px">
 											  <div class="give-card__overlay"></div>
 										   </div>
 										   <div class="give-card__body">
@@ -40,7 +40,7 @@
 													Post Graduates students
 													</a>
 											  </h3>
-												 <a href="./asset/reports/LIFE annual Report 19-20.pdf" download>
+												 <a href="{{url('website/asset/reports/LIFE annual Report 19-20.pdf')}}" download>
 													<button type="button" class="give-btn give-btn-modal">Download Brouchers</button>
 												  </a>                                                                                                    
 										   </div>
@@ -48,14 +48,14 @@
 										<article id="post-98" class="elementor-give-form has-thumbnail post-98 give_forms type-give_forms status-publish has-post-thumbnail give_forms_category-children give_forms_tag-chariry give_forms_tag-children give_forms_tag-support entry">
 										   <div class="give-card__category"><a href="" rel="tag">May 27 & 28 2023</a></div>
 										   <div class="give-card__media">
-											  <img width="300" height="200" src="./asset/images/events/Elephent.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="./asset/reports/thumb-2019.png 300w, ./asset/reports/thumb-2019.png 1024w, ./asset/reports/thumb-2019.png 768w, ./asset/reports/thumb-2019.png 600w, ./asset/reports/thumb-2019.png 1200w" sizes="(max-width: 300px) 100vw, 300px">
+											  <img width="300" height="200" src="{{url('website/asset/images/events/Elephent.jpg')}}" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="{{url('website/asset/reports/thumb-2019.png')}} 300w, {{url('website/asset/reports/thumb-2019.png')}} 1024w, {{url('website/asset/reports/thumb-2019.png')}} 768w, {{url('website/asset/reports/thumb-2019.png')}} 600w, {{url('website/asset/reports/thumb-2019.png')}} 1200w" sizes="(max-width: 300px) 100vw, 300px">
 											  <div class="give-card__overlay"></div>
 										   </div>
 										   <div class="give-card__body">
 											  <h3 class="give-card__title">
 												 <a href="">Human Elephent Coexistence Workshop at Odisha</a>
 											  </h3>
-												 <a href="./asset/reports/LIFE annual Report 19-20.pdf" download>
+												 <a href="{{url('website/asset/reports/LIFE annual Report 19-20.pdf')}}" download>
 													<button type="button" class="give-btn give-btn-modal">Download Brouchers</button>
 												  </a>                                                                                                    
 										   </div>
@@ -63,7 +63,7 @@
 										<article id="post-98" class="elementor-give-form has-thumbnail post-98 give_forms type-give_forms status-publish has-post-thumbnail give_forms_category-children give_forms_tag-chariry give_forms_tag-children give_forms_tag-support entry">
 										   <div class="give-card__category"><a href="" rel="tag">June 10 2023</a></div>
 										   <div class="give-card__media">
-											  <img width="300" height="200" src="./asset/images/events/Nature.JPG" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="./asset/reports/thumb-2019.png 300w, ./asset/reports/thumb-2019.png 1024w, ./asset/reports/thumb-2019.png 768w, ./asset/reports/thumb-2019.png 600w, ./asset/reports/thumb-2019.png 1200w" sizes="(max-width: 300px) 100vw, 300px">
+											  <img width="300" height="200" src="{{url('website/asset/images/events/Nature.JPG')}}" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="{{url('website/asset/reports/thumb-2019.png')}} 300w, {{url('website/asset/reports/thumb-2019.png')}} 1024w, {{url('website/asset/reports/thumb-2019.png')}} 768w, {{url('website/asset/reports/thumb-2019.png')}} 600w, {{url('website/asset/reports/thumb-2019.png')}} 1200w" sizes="(max-width: 300px) 100vw, 300px">
 											  <div class="give-card__overlay"></div>
 										   </div>
 										   <div class="give-card__body">
@@ -72,7 +72,7 @@
 													Annai scholastica college, Rameswaram
 													</a>
 											  </h3>
-												 <a href="./asset/reports/LIFE annual Report 19-20.pdf" download>
+												 <a href="{{url('website/asset/reports/LIFE annual Report 19-20.pdf')}}" download>
 													<button type="button" class="give-btn give-btn-modal">Download Brouchers</button>
 												  </a>                                                                                                    
 										   </div>

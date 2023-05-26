@@ -48,10 +48,10 @@ class ReportController extends Controller
     public function create()
     {
 
-        print_r($_POST);
-        print_r($_FILES);
-        print_r($_REQUEST);
-        exit;
+        // print_r($_POST);
+        // print_r($_FILES);
+        // print_r($_REQUEST);
+        // exit;
 
         $report = Report::create([
             'title' => $_POST['title'],
@@ -115,6 +115,15 @@ class ReportController extends Controller
                 }
                 //print_r($reports);exit;
                 return view('website.gallery', compact('reports'));
+    }
+    public function get_content_id()
+    {
+        
+                $reports = DB::table('reports')->latest()->first();
+                
+               
+                //print_r($reports);exit;
+                return view('website.others.content_page', compact('reports'));
     }
    
 }

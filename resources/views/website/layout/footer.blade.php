@@ -37,22 +37,22 @@
 								   </style>
 								   <div class="elementor-social-icons-wrapper elementor-grid">
 									  <span class="elementor-grid-item">
-									  <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f " target="_blank">
+									  <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f " href="https://www.facebook.com/profile.php?id=100080114831977" target="_blank">
 									  <span class="elementor-screen-only">Facebook-f</span>
 									  <i class="fa fa-facebook" aria-hidden="true"></i>					</a>
 									  </span>
 									  <span class="elementor-grid-item">
-									  <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-536e1c6" target="_blank">
+									  <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-536e1c6" target="_blank" href="https://twitter.com/indialifetrust">
 									  <span class="elementor-screen-only">Twitter</span>
 									  <i class="fa fa-twitter" aria-hidden="true"></i>					</a>
 									  </span>
 									  <span class="elementor-grid-item">
-									  <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-fcdcc7c" target="_blank">
+									  <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-fcdcc7c" target="_blank" href="https://youtube.com/@indialifetrust">
 									  <span class="elementor-screen-only">Youtube</span>
 									  <i class="fa fa-youtube" aria-hidden="true"></i>					</a>
 									  </span>
 									  <span class="elementor-grid-item">
-									  <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-3920b65" target="_blank">
+									  <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-3920b65" target="_blank" href="https://www.facebook.com/profile.php?id=100080114831977">
 									  <span class="elementor-screen-only">Instagram</span>
 									  <i class="fa fa-instagram" aria-hidden="true"></i>				</a>
 									  </span>

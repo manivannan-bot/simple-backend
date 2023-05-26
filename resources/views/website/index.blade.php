@@ -488,7 +488,7 @@
 										  </div>
 									   </div>
 									   <div class="elementor-post__content">
-										  <h3 class="elementor-post__title"><a href="./content_screen.html">Internship program for Avinashilingam University’s <br>
+										  <h3 class="elementor-post__title"><a href="{{url('content_screen')}}">Internship program for Avinashilingam University’s <br>
 											Post Graduates students</a></h3>
 										  <ul class="elementor-post__meta">
 											 <li>
@@ -504,7 +504,7 @@
 										  </div>
 									   </div>
 									   <div class="elementor-post__content">
-										  <h3 class="elementor-post__title"><a href="./events.html">Human Elephent Coexistence Workshop at Odisha</a></h3>
+										  <h3 class="elementor-post__title"><a href="{{url('content_screen')}}">Human Elephent Coexistence Workshop at Odisha</a></h3>
 										  <ul class="elementor-post__meta">
 											 <li>
 												<time class="entry-date published" datetime="2021-07-02T12:10:00+00:00">May 27 & 28 2023</time>  	          
@@ -519,7 +519,7 @@
 										  </div>
 									   </div>
 									   <div class="elementor-post__content">
-										  <h3 class="elementor-post__title"><a href="./events.html">Involving student for Nature conservation at <br>
+										  <h3 class="elementor-post__title"><a href="{{url('content_screen')}}">Involving student for Nature conservation at <br>
 											Annai scholastica college, Rameswaram
 											</a></h3>
 										  <ul class="elementor-post__meta">

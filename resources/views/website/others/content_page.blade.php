@@ -2657,10 +2657,7 @@
 									offer feedback on their work. They will also share their expertise and experiences
 									to enhance the learning process.</p>
 
-								<p>Evaluation and Certification: At the end of the internship, students will be
-									evaluated based on their performance, participation, and contributions. Successful
-									completion of the programme will be acknowledged with a certificate, highlighting
-									the skills acquired and the practical experience gained during the internship.</p>
+								<p>{{$reports->description}}</p>
 									<div class="entry-footer">
 									<div class="entry-social-share">
 										<span>Get a brochure</span>

@@ -227,14 +227,15 @@ Route::group(['prefix' => 'install'], function () {
 
 
 Route::get('gallery', 'ReportController@get_report')->name('gallery');
-Route::get('events', function () {
-    return view('website.events');
-})->name('events');
+Route::get('events', 'ReportController@get_events')->name('events');
+// Route::get('events', function () {
+//     return view('website.events');
+// })->name('events');
 
 
 Route::get('reports', function () {
     return view('website.gallery');
 })->name('gallery');
 
-Route::get('content_screen', 'ReportController@get_content_id')->name('gallery');
+Route::get('content_screen', 'ReportController@get_content_id')->name('content_screen');
 

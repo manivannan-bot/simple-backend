@@ -125,5 +125,15 @@ class ReportController extends Controller
                 //print_r($reports);exit;
                 return view('website.others.content_page', compact('reports'));
     }
+
+    public function get_events()
+    {
+        
+                $reports = DB::table('reports')->where('type','Event')->get();
+                
+               
+                //print_r($reports);exit;
+                return view('website.events', compact('reports'));
+    }
    
 }

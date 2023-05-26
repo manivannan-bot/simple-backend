@@ -20,10 +20,12 @@
     <div class="col-md-8">
         
         <div class="form-group">
-            <label for="phone">@lang('Description')</label>
-            <input type="text" class="form-control input-solid" id="description"
-                   name="description" placeholder="@lang('Description')" value="{{ $edit ? $user->description : '' }}">
-        </div>
+        <label for="description">@lang('Description')</label>
+        <input id="description" type="hidden" name="description" value="{{ $edit ? $user->description : '' }}">
+        <trix-editor input="description"></trix-editor>
+    </div>
+
+
     
         <div class="form-group">
             <label class="form-label" for="customFile">@lang('Upload Banner')</label>
@@ -52,3 +54,13 @@
         </div>
     @endif
 </div>
+
+<script src="https://cdn.tiny.cloud/1/rvx7jjskysl6s4tjausn2v8kspszhoc6uw3ug969xk0ay4k4/tinymce/5/tinymce.min.js"></script>
+<script>
+    tinymce.init({
+        selector: '#description',
+        height: 200,
+        plugins: 'link lists',
+        toolbar: 'bold italic | bullist numlist',
+    });
+</script>
